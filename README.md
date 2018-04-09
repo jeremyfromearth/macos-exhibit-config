@@ -18,14 +18,14 @@ Considerations for running macOS in exhibits and installations.
     * Finder » Preferences » Show these items on Desktop (uncheck all)
  
 ## Scheduling
-  * Schedule Startup & Shutdown
+  * __Schedule Startup & Shutdown__
     * System Preferences » Energy Saver » Schedule
     * Startup or wake (checked): Every Day at 12:00am
     * Select second check box, choose Restart: Every Day 12:05am
-  * Prevent Sleep
+  * __Prevent Sleep__
     * System Preferences » Energy Saver » Turn display off after: Never
     * Put hard disks to sleep when possible: unchecked
     
 ## Startup
-  * Auto Launch Apps
-    * System Preferences » Users & Groups » Login Items » Use + icon to add applications
+  * __Auto Launch Apps__
+    * System Preferences » Users & Groups » Login Items » Use + icon to add applications
