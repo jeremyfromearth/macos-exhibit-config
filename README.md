@@ -16,7 +16,11 @@ Considerations for running macOS in exhibits and installations.
     * System Preferences » Dock » Automatically Hide & Show the Dock (checked)
   * __Remove Desktop Icons__
     * Finder » Preferences » Show these items on Desktop (uncheck all)
- 
+
+## Audio
+  * __Set Audio Levels__
+    * System Preferences » Sound » Output
+
 ## Scheduling
   * __Schedule Startup & Shutdown__
     * System Preferences » Energy Saver » Schedule
