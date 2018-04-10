@@ -33,3 +33,11 @@ Considerations for running macOS in exhibits and installations.
 ## Startup
   * __Auto Launch Apps__
     * System Preferences » Users & Groups » Login Items » Use + icon to add applications
+    
+## Security
+  * Disable Gatekeeper
+    * Terminal » Enter: `sudo spctl --master-disable`
+  * Set Password
+    * System Preferences » Security & Privacy » Change Password (document this password somewhere!)
+  * Set Auto Login (skip login screen on boot)
+    * System Preference » Security & Privacy » Disable automatic login (un-checked)
