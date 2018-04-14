@@ -11,8 +11,8 @@ Considerations for running macOS in exhibits and installations.
 ## Disable System Updates
   * __Disable Automatic Updates__
     * System Preferences » App Store
-    * Uncheck "Automatically check for updates"
-    * Uncheck "Automatically download apps purchased on other Macs"
+      * Uncheck "Automatically check for updates"
+      * Uncheck "Automatically download apps purchased on other Macs"
 
 ## Launch
 Launching an app at login is pretty trivial. For simple installs you can do the following. 
