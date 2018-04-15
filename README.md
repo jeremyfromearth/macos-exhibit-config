@@ -18,6 +18,7 @@ Considerations for running macOS in exhibits and installations.
 Launching an app at login is pretty trivial. For simple installs you can do the following. 
   * __Launch at Login__
     * System Preferences » Users & Groups » Login Items » Use + icon to add applications
+
 For more sophisticated launch strategies, read documentation located in the "launch" folder
 
 ## Scheduling
