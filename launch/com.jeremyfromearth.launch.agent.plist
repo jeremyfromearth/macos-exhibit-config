@@ -1,0 +1,57 @@
+<!-- 
+  Description:
+    Launches an application on Login and keeps it alive if it is closed or crashes.
+
+  Usage:
+    Change the Label to a unique identifier specific to your project
+    Change the path to the delayed-launch.sh file to point to the file on your computer
+    Change the delay time (in seconds)
+    Change the path to the application file
+    Rename and move this file to: ~/Library/Launch Agents/
+    Invoke on command line with: launchctl load ~/Library/LaunchAgents/NAME_OF_FILE
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Unique id for this job -->
+  <key>Label</key>
+  <string>com.jeremyfromearth.launch.agent</string>
+
+  <!-- Start the job on login/startup -->
+  <key>RunAtLoad</key>
+  <true/>
+
+  <!-- Restart if the app crashes -->
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>ProgramArguments</key>
+  <array>
+    <!-- 
+    Path to shell script that will launch application after given delay
+    Must be an absolute path, to the delayed launch script
+    -->
+    <string>/Users/jeremy/Development/work/macos-exhibit-config/launch/delayed-launch.sh</string>
+    <!-- Delay time before launching app -->
+    <string>5</string>
+    <!-- Path to application -->
+    <string>/Applications/Calculator.app</string>
+  </array>
+
+  <!-- Run this job if files or directories in this list change. (Only runs if job has not already started) -->
+  <!--
+  <key>WatchPaths</key>
+  <array>
+    <string></string>
+  </array>
+  -->
+
+  <!-- Once the app closes, start it after this duration -->
+  <!--
+  <key>ThrottleInterval</key>
+  <integer>30</integer>
+  -->
+</dict>
+</plist>
