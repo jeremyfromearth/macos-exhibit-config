@@ -1,14 +1,16 @@
 <!-- 
   Description:
-    Launches an application on Login and keeps it alive if it is closed or crashes.
+    Delayed keep alive launchd job
+    Unconditionally keeps an application running
 
   Usage:
-    Change the Label to a unique identifier specific to your project
+    Rename (specific to your project) and move this file to: ~/Library/Launch Agents/
+    Change the Label to a unique identifier (specific to your project)
     Change the path to the delayed-launch.sh file to point to the file on your computer
     Change the delay time (in seconds)
     Change the path to the application file
-    Rename and move this file to: ~/Library/Launch Agents/
-    Invoke on command line with: launchctl load ~/Library/LaunchAgents/NAME_OF_FILE
+    Load the job: launchctl load ~/Library/LaunchAgents/NAME_OF_THIS_FILE
+    Unload the job: launchctl unload ~/Library/LaunchAgents/NAME_THIS_FILE
 -->
 
 <?xml version="1.0" encoding="UTF-8"?>
