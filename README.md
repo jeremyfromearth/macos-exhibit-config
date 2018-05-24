@@ -53,3 +53,5 @@ For more sophisticated launch strategies, read documentation located in the "lau
     * Finder » Preferences » Show these items on Desktop (uncheck all)
   * __Disable Mission Control Spaces__
     * System Preferences » Mission Control » Uncheck All (Requires logout to take effect)
+    * Terminal » Enter: defaults write com.apple.dock mcx-expose-disabled -bool TRUE
+    * Terminal » Enter: killall Dock
