@@ -51,3 +51,5 @@ For more sophisticated launch strategies, read documentation located in the "lau
     * System Preferences » Dock » Automatically Hide & Show the Dock (checked)
   * __Remove Desktop Icons__
     * Finder » Preferences » Show these items on Desktop (uncheck all)
+  * __Disable Mission Control Spaces__
+    * System Preferences » Mission Control » Uncheck All (Requires logout to take effect)
