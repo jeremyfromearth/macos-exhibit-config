@@ -6,11 +6,11 @@ echo "Waiting $1 second(s) before launching $2"
 sleep $1
 
 if [ -z $3 ]; then
-  open $2
+  open $2 -g
 else 
   if [ $3 = "false" ]; then
     open $2 -jg
   else
-    open $2
+    open $2 -g
   fi
 fi
