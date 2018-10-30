@@ -24,7 +24,6 @@ For more sophisticated launch strategies, read documentation located in the "lau
 ## Scheduling
   * __Schedule Startup & Shutdown__
     * System Preferences » Energy Saver » Schedule
-    * Startup or wake (checked): Every Day at 12:00am
     * Select second check box, choose Restart: Every Day 12:05am
   * __Prevent Sleep__
     * System Preferences » Energy Saver » Turn display off after: Never
