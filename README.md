@@ -54,3 +54,7 @@ For more sophisticated launch strategies, read documentation located in the "lau
     * System Preferences » Mission Control » Uncheck All (Requires logout to take effect)
     * Terminal » Enter: defaults write com.apple.dock mcx-expose-disabled -bool TRUE
     * Terminal » Enter: killall Dock
+
+### References
+ * https://www.dssw.co.uk/reference/pmset.html
+ * https://www.dssw.co.uk/reference/caffeinate.html
